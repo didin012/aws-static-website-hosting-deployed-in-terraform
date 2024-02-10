@@ -30,12 +30,8 @@ provider "aws" {
 
 ![image](https://github.com/didin012/Static-Website-Hosting-on-AWS-S3-using-Terraform/assets/104528282/2e036df2-333b-4d54-a7b9-c7bf2fd81378)
 
-
 3. Go inside the bucket then click on ```resume.html```then go to **Properties**
-
-![image](https://github.com/didin012/Static-Website-Hosting-on-AWS-S3-using-Terraform/assets/104528282/74089f3d-51ae-4d3b-866e-f9076aa43c0f)
-
-5. Copy the Object URL then open a new browser to check if it works
+4. Copy the Object URL then open a new browser to check if it works
 
 ![image](https://github.com/didin012/Static-Website-Hosting-on-AWS-S3-using-Terraform/assets/104528282/bb6bbc07-9fd0-4a35-8706-0466c1a41263)
 (I blocked my information here so it should work on you)
