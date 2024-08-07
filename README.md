@@ -9,7 +9,7 @@ Terraform streamlines the deployment process, allowing quick setup of an S3 buck
 ## Setting Up
 1. Clone this project in your preferred directory. <br>
 ```$ git clone https://github.com/didin012/Static-Website-Hosting-on-AWS-S3-using-Terraform```
-2. Then make a new file in the directory and name it as ```providers.tf``` and put inside the following credentials of your AWS account
+4. Make a new file in the directory and name it as ```providers.tf``` and put inside the following credentials of your AWS account
 ```
 provider "aws" {
   region = "us-east-1"
@@ -18,12 +18,12 @@ provider "aws" {
 }
 ```
 ## Running Our Terraform Configuration
-3. After that, open up the terminal within the directory then run this command inside. <br>
+3. Open up the terminal within the directory then run this command inside. This is to initialize our local repo to terraform <br>
 ```$ terraform init```
-4. Wait for a while then run this command afterwards.<br>
+4. Run this after initializing. Its for sanity checks of our changes.<br>
 ```$ terraform plan```
-5. The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure. You must apply these changes using this command.<br>
-```$ terraform apply -auto-approve```
+5. The terraform plan command creates an execution plan that lets you preview the changes that Terraform plans to make to your infrastructure. You must apply these changes using this command.<br>
+```$ terraform apply```
 
 ## Checking our Website if it Works
 1. Open up S3 to check if the creation was success
