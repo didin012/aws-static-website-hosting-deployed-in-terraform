@@ -9,13 +9,7 @@ Terraform streamlines the deployment process, allowing quick setup of an S3 buck
 ## Setting Up
 1. Clone this project in your preferred directory. <br>
 ```$ git clone https://github.com/didin012/Static-Website-Hosting-on-AWS-S3-using-Terraform```
-4. Make a new file in the directory and name it as ```providers.tf``` and put inside the following credentials of your AWS account
-```
-provider "aws" {
-  region = "us-east-1"
-  access_key = "<YOUR_ACCESS_KEY>"
-  secret_key = "<YOUR_SECRET_KEY>"
-}
+2. Import your access_key, secret_key of IAM role for granting root access to your AWS account and use `export` command to import these creds.
 ```
 ## Running Our Terraform Configuration
 3. Open up the terminal within the directory then run this command inside. This is to initialize our local repo to terraform <br>
